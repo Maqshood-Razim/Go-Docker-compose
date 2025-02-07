@@ -33,6 +33,6 @@ func ConnectDatabase() (*gorm.DB, error) {
 		return nil, err
 	}
 
-	fmt.Println("✅ Database connected & migrated successfully!")
+	fmt.Println("Database connected ")
 	return db, nil
 }
